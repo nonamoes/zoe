@@ -11,7 +11,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #fd7e14;
+  --orange: #8a9597;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -42,6 +42,23 @@
   box-sizing: border-box;
 }
 
+
+.google-form-contenedor {    
+  width: 100%; 
+  overflow: hidden; 
+  padding-top: 100%;
+  } 
+  
+.responsive-iframe { 
+  position: absolute; 
+  top: 0; left: 0; 
+  bottom: 0; 
+  right: 0; 
+  width: 100%; 
+  height: 100%; 
+  border: none; 
+  } 
+  
 html {
   font-family: sans-serif;
   line-height: 1.15;
